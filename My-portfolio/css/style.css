@@ -1,9 +1,8 @@
 @font-face {
+  font-family: 'Kanit', sans-serif;
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Abadi MT Std', sans-serif;
 }
-@import url('http://fonts.cdnfonts.com/css/abadi-mt-std');
-body {background-color: #fdfdfd
+body {background-color: #fdfdfd;
 }
   nav {
     height: 69px;
@@ -15,7 +14,7 @@ body {background-color: #fdfdfd
     margin: 23px;
     display: inline-block;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
   }
   .heroImage {
     max-height: 655px;
@@ -68,7 +67,7 @@ h3#titlepage {
   font-weight: 400;
   font-size: 18px;
 position: flex;
-width: 500px;
+width: auto;
 
 padding-right: 10%;
 }
@@ -119,7 +118,7 @@ padding-right: 10%;
   font-weight: 400;
   font-size: 18px;
 position: flex;
-width: 500px;
+width: auto;
 padding-right: 10%;
 }
 .thirdProjectImg {
@@ -252,6 +251,15 @@ input[type=submit]:hover {
   font-weight: 400;
   color: white;
 }
+.waveTopNav {
+  margin: 0 auto;
+  max-width: 100%;
+}
+.title {
+  color: white;
+  text-align: center;
+  margin-top: -137px;
+}
 /* New project grid 
 #categoryGrid {
   margin: 0px 5%;
@@ -331,11 +339,99 @@ h1 {
   font-weight: 500;
 }
 h2 {
-  font-family: 'Abadi MT Std', sans-serif;
-  font-weight: 400;
+  font-family: 'kanit', sans-serif;
+  font-weight: 600;
   font-size: 40px;
 }
-h3 { font-family:'Abadi MT Std', sans-serif;
-  font-weight: 400;
+h3 { font-family:'kanit', sans-serif;
+  font-weight: 600;
   font-size: 32px;
+}
+
+.aboutLeft {
+  float: left;
+  height: auto;
+  width: 40%;
+  text-align: center;
+  padding-top: 50px;
+}
+input[type=buttonPortfolio] {
+  font-family: 'montserrat', sans-serif;
+  font-size: 16px;
+  width: 172;
+  background-color: #001926;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+text-align: center;
+}
+input[type=buttonPortfolio]:hover {
+  background-color: #004D79;
+}
+#education { 
+  font-family: 'montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+text-align: left;
+padding-top: 74px;
+padding-left: 25%;
+}
+
+#education a {
+  font-family: 'montserrat', sans-serif;
+  font-weight: 600;
+  color:#004D79 ;
+}
+.aboutRight {
+  float: left;
+  height: auto;
+  width: 60%;
+  text-align: left;
+  padding-top: 50px;
+}
+.aboutRight p {
+  font-family: 'montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+text-align: left;
+padding-right: 150px;
+}
+.experience a {
+  font-family: 'montserrat', sans-serif;
+  font-weight: 600;
+  color:#004D79 ;
+}
+.experience {
+  font-family: 'montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.aboutphoto img {
+  padding-top: 24px;
+    max-width: 80%;
+    padding-bottom: 50px;
+}
+
+#skills {
+  background-color: #004D79;
+  width: auto;
+  text-align: center;
+  font-family: 'montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 90px;
+}
+.card {
+  text-align: left;
+  display: inline-block;
+ margin: 25px;
+  border-radius: 5px;
+  height: 250px;
+  width: 270px;
+}
+.wrapper {
+  height: 100%;
 }
