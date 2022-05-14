@@ -21,6 +21,36 @@ body {background-color: #fdfdfd;
     margin: 0 auto;
     max-width: 100%;
   }
+ #mainContent .soccer {
+max-height: 100px;
+margin-bottom: -10px;
+  }
+  .soccer img {
+    max-height: 100px;
+    margin-bottom: -20px;
+        }
+        .soccer{
+        cursor: pointer;
+          margin-top:0px;
+          height:00px;
+          padding:0px;
+          position:relative;
+        }    
+        .soccer img{
+          position:absolute;
+          top:-22px;
+          width:auto;
+          max-height:100px;
+        }
+  .pointer img{
+    max-height: 35px;
+  }
+  #mainContent p {
+    margin: -20px;
+        text-align: right;
+    padding-right: 17%;
+    font-size: 15px;
+  }
   #mainContent a {
     font-size: 75px;
   }
@@ -37,6 +67,36 @@ h1#topHeadline {
   font-size: 112px;
   color: white;
 }
+h2#topHeadline a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 42px;
+  color: white;
+}
+.gridChild {
+  margin: 15px;
+  padding: 15px;
+  height: 80px;
+}
+.arrow {
+  grid-area: arrow;
+  text-align: center;
+}
+.bounceMe {
+  height: 40px;
+  animation: bounceArrow .7s infinite;
+}
+@keyframes bounceArrow {
+  from {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 7px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+
 h2#topHeadline {
   font-family: 'Montserrat', sans-serif;
   font-size: 42px;
@@ -46,7 +106,8 @@ h2#topHeadline {
   float: right;
   height: 360px;
   width: auto;
-  padding-right: 1rem;}
+  padding-right: 1rem;
+}
 
 h3#titlepage {
   text-align: center;
@@ -416,13 +477,14 @@ padding-right: 150px;
 }
 
 #skills {
-  background-color: #004D79;
+  clear: both;
+  background-color: #E0EAEF;
   width: auto;
   text-align: center;
   font-family: 'montserrat', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  padding-top: 90px;
+  padding-top: 20px;
 }
 .card {
   text-align: left;
