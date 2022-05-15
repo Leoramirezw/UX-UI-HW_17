@@ -38,9 +38,9 @@ margin-bottom: -10px;
         }    
         .soccer img{
           position:absolute;
-          top:-22px;
+          top:-4px;
           width:auto;
-          max-height:100px;
+          max-height:80px;
         }
   .pointer img{
     max-height: 35px;
@@ -48,7 +48,7 @@ margin-bottom: -10px;
   #mainContent p {
     margin: -20px;
         text-align: right;
-    padding-right: 17%;
+    padding-right: 23%;
     font-size: 15px;
   }
   #mainContent a {
@@ -96,6 +96,7 @@ h2#topHeadline a {
     margin-top: 0px;
   }
 }
+
 
 h2#topHeadline {
   font-family: 'Montserrat', sans-serif;
@@ -496,4 +497,113 @@ padding-right: 150px;
 }
 .wrapper {
   height: 100%;
+}
+
+@media only screen and (max-width:600px){
+  .inline-block {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 400;
+    margin: 23px;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+  }
+  .heroImage {
+    max-height: 655px;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+ #mainContent .soccer {
+max-height: 100px;
+margin-bottom: -10px;
+  }
+  .soccer img {
+    max-height: 100px;
+    margin-bottom: -20px;
+        }
+        .soccer{
+        cursor: pointer;
+          margin-top:0px;
+          height:00px;
+          padding:0px;
+          position:relative;
+        }    
+        .soccer img{
+          position:absolute;
+          top:2px;
+          width:auto;
+          max-height:50px;
+        }
+  .pointer img{
+    max-height: 25px;
+  }
+  #mainContent p {
+    margin: -10px;
+        text-align: right;
+    padding-right: 10%;
+    font-size: 15px;
+  }
+  #mainContent a {
+    font-size: 50px;
+  }
+  #mainContent {
+    background-color: #004D79;
+    text-align: center;
+    margin-top: -93px;
+  }
+  .pageHeight {
+  height: 450px;
+}
+h1#topHeadline {
+  padding-top: 80px;
+  font-size:65px;
+  color: white;
+}
+h2#topHeadline  {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  color: white;
+}
+h2#topHeadline a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  color: white;
+}
+.gridChild {
+  margin: 15px;
+  padding: 15px;
+  height: 80px;
+}
+.section2 {
+  background-color: #E0ECEA;
+  min-height: 350px;
+  padding-left: 6rem;
+  padding-right: 5rem;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.section2 h3 {
+  padding-left: 3rem;
+  padding-top: 50px;
+}
+.section2 p {
+  font-family: 'montserrat';
+  font-weight: 400;
+  font-size: 18px;
+  position: flex;
+  width: auto;
+  padding-left: 3rem;
+}
+.section2 [type=button]{
+  margin-left: 10%;
+}
+.secondProjectImg {
+  float: left;
+  height: 350px;
+  width: auto;
+  padding-right: 20px;
+  padding-bottom: 70px;
+}
+
 }
