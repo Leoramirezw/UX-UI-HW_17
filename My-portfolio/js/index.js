@@ -6,3 +6,8 @@ $(function() {
         $('.soccer').animate({top:0});
     });
 });
+
+function fade() {
+    $('.preload').fadeOut("slow");
+    }
+    setTimeout(fade, 3000);
