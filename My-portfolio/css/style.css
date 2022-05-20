@@ -500,9 +500,8 @@ padding-right: 150px;
 }
 
 .preload {
-  position:absolute;
+  position: fixed top 0;
   width:100%;
-  height:100vw;
   background-color: white;
   margin:0;
   text-align:center;
